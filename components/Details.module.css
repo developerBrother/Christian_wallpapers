@@ -1,0 +1,39 @@
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:1rem;
+   
+}
+.subcontainer{
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+
+.subcontainer a{
+    font-size:3rem;
+    border-style:solid;
+    border-radius:10px;
+    width:5em;
+    
+}
+
+.rightside{
+    font-size:3rem;
+    width:80%;
+    padding:2rem;
+    color:white;
+    background-color:royalblue;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.container img{
+    height:720px;
+    width:720px
+}

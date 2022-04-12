@@ -1,0 +1,20 @@
+.div{
+    display:flex;
+    flex-direction:column;
+    background-color:aliceblue;
+    border-radius:10px;
+    border-style:solid;
+    padding:1rem;
+    justify-content:center;
+   
+}
+
+.div:hover{
+    cursor:pointer;
+}
+
+.div img{
+height:5rem;
+width:5rem;
+
+}
