@@ -11,9 +11,9 @@ import styles from '../components/instructions.module.css';
         <li>Click an image in the gallery</li>
         <li>Click the download button</li>
         <li>Right click the image</li>
-        <li>Click "Save image as"</li>
+        <li>Click Save image as</li>
         <li>Find the file where you saved the image</li>
-        <li>Right click the file and select "Set as wallpaper"</li>
+        <li>Right click the file and select Set as wallpaper</li>
     </ul>
     
     </div>
