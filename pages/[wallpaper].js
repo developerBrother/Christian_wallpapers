@@ -3,7 +3,7 @@ import {useRouter} from 'next/router';
 import Details from '../components/Details';
 import Navbar from '../components/Navbar';
 
- function wallpaper(){
+ function Wallpaper(){
 
     const router=useRouter();
     console.log(router.query.wallpaper);
@@ -18,7 +18,7 @@ import Navbar from '../components/Navbar';
   )
 }
 
-export default wallpaper;
+export default Wallpaper;
 
 //don't lose data when refreshing
 export async function getServerSideProps(context) {

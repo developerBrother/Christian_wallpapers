@@ -3,6 +3,7 @@ import React from "react";
 import navStyles from "./Navbar.module.css";
 import Link from 'next/Link';
 
+
 const Navbar = () => {
   
 
@@ -14,14 +15,13 @@ const Navbar = () => {
         <li>
         <Link href='/'>Christian Wallpapers</Link>
         </li>
-        <li>
-          {/* <label htmlFor="searchbar">Search</label>
-          <form onSubmit={submitHandler}>
-          <input id="searchbar" type="text"></input>
-          <button>Search</button>
-          </form> */}
-        </li>
+       <li>
+       <Link href='instructions'>Instructions</Link>
+       </li>
+         
+        
       </ul>
+      
     </div>
   );
 };
