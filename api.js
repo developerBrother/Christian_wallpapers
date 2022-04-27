@@ -1,1 +1,0 @@
-export const apiKey="https://react-http-7e643-default-rtdb.firebaseio.com/links.json";
